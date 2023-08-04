@@ -30,6 +30,9 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           base_indepth: yes
+          repositories: 1000
+          repositories_forks: yes
+          repositories_affiliations: ""
           config_octicon: yes
           config_timezone: Asia/Hong_Kong
           config_twemoji: yes
@@ -41,7 +44,10 @@ jobs:
         with:
           filename: github-metrics-isocalendar.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
+          base_indepth: yes
+          repositories: 1000
+          repositories_forks: yes
+          repositories_affiliations: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
       - name: Cache github stats dark mode
