@@ -42,7 +42,6 @@ jobs:
           filename: github-metrics-isocalendar.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
-          user: ShadowySpirits
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
       - name: Cache github stats dark mode
