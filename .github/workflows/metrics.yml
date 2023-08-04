@@ -43,12 +43,13 @@ jobs:
         with:
           filename: github-metrics-isocalendar.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
           base_indepth: yes
           repositories: 1000
           repositories_forks: yes
           repositories_affiliations: ""
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          plugin_isocalendar_duration: half-year
       - name: Cache github stats dark mode
         uses: fjogeleit/http-request-action@v1
         with:
