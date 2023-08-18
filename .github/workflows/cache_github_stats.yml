@@ -13,19 +13,19 @@ jobs:
     - name: Cache github stats dark mode
       uses: wei/wget@v1
       with:
-        args: '-O github-stats-dark.svg https://github-readme-stats.lv5.moe/api?username=ShadowySpirits&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&hide_border=true&theme=dark'
+        args: '-O github-stats-dark.svg "https://github-readme-stats.lv5.moe/api?username=ShadowySpirits&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&hide_border=true&theme=dark"'
     - name: Cache github stats light mode
       uses: wei/wget@v1
       with:
-        args: '-O github-stats-light.svg https://github-readme-stats.lv5.moe/api?username=ShadowySpirits&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&hide_border=true&theme=default'
+        args: '-O github-stats-light.svg "https://github-readme-stats.lv5.moe/api?username=ShadowySpirits&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&hide_border=true&theme=default"'
     - name: Cache language stats dark mode
       uses: wei/wget@v1
       with:
-        url: '-O language-stats-dark.svg https://github-readme-stats.lv5.moe/api/top-langs?username=ShadowySpirits&hide_title=false&layout=compact&card_width=320&langs_count=5&hide_border=true&theme=dark'
+        url: '-O language-stats-dark.svg "https://github-readme-stats.lv5.moe/api/top-langs?username=ShadowySpirits&hide_title=false&layout=compact&card_width=320&langs_count=5&hide_border=true&theme=dark"'
     - name: Cache language stats light mode
       uses: wei/wget@v1
       with:
-        url: '-O language-stats-light.svg https://github-readme-stats.lv5.moe/api/top-langs?username=ShadowySpirits&hide_title=false&layout=compact&card_width=320&langs_count=5&hide_border=true&theme=default'
+        url: '-O language-stats-light.svg "https://github-readme-stats.lv5.moe/api/top-langs?username=ShadowySpirits&hide_title=false&layout=compact&card_width=320&langs_count=5&hide_border=true&theme=default"'
     - uses: EndBug/add-and-commit@v9
       with:
         message: Cache github stats
