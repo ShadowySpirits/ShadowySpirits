@@ -21,11 +21,11 @@ jobs:
     - name: Cache language stats dark mode
       uses: wei/wget@v1
       with:
-        url: '-O language-stats-dark.svg "https://github-readme-stats.lv5.moe/api/top-langs?username=ShadowySpirits&hide_title=false&layout=compact&card_width=320&langs_count=5&hide_border=true&theme=dark"'
+        args: '-O language-stats-dark.svg "https://github-readme-stats.lv5.moe/api/top-langs?username=ShadowySpirits&hide_title=false&layout=compact&card_width=320&langs_count=5&hide_border=true&theme=dark"'
     - name: Cache language stats light mode
       uses: wei/wget@v1
       with:
-        url: '-O language-stats-light.svg "https://github-readme-stats.lv5.moe/api/top-langs?username=ShadowySpirits&hide_title=false&layout=compact&card_width=320&langs_count=5&hide_border=true&theme=default"'
+        args: '-O language-stats-light.svg "https://github-readme-stats.lv5.moe/api/top-langs?username=ShadowySpirits&hide_title=false&layout=compact&card_width=320&langs_count=5&hide_border=true&theme=default"'
     - uses: EndBug/add-and-commit@v9
       with:
         message: Cache github stats
