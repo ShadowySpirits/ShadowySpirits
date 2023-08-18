@@ -2,7 +2,7 @@
 name: Metrics
 on:
   # Schedule updates (each hour)
-  schedule: [{cron: "0 * * * *"}]
+  schedule: [{cron: "0 */4 * * *"}]
   # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
   push: {branches: ["master", "main"]}
@@ -50,28 +50,3 @@ jobs:
           repositories_affiliations: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
-      - name: Cache github stats dark mode
-        uses: fjogeleit/http-request-action@v1
-        with:
-          url: 'https://github-readme-stats.lv5.moe/api?username=ShadowySpirits&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&hide_border=true&theme=dark'
-          method: 'GET'
-          retry: 3
-      - name: Cache github stats light mode
-        uses: fjogeleit/http-request-action@v1
-        with:
-          url: 'https://github-readme-stats.lv5.moe/api?username=ShadowySpirits&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&hide_border=true&theme=default'
-          method: 'GET'
-          retry: 3
-      - name: Cache language stats dark mode
-        uses: fjogeleit/http-request-action@v1
-        with:
-          url: 'https://github-readme-stats.lv5.moe/api/top-langs?username=ShadowySpirits&hide_title=false&layout=compact&card_width=320&langs_count=5&hide_border=true&theme=dark'
-          method: 'GET'
-          retry: 3
-      - name: Cache language stats light mode
-        uses: fjogeleit/http-request-action@v1
-        with:
-          url: 'https://github-readme-stats.lv5.moe/api/top-langs?username=ShadowySpirits&hide_title=false&layout=compact&card_width=320&langs_count=5&hide_border=true&theme=default'
-          method: 'GET'
-          retry: 3
-

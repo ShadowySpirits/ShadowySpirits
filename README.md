@@ -51,26 +51,26 @@ Here are some ideas to get you started:
 <div align="center">
     <picture>
         <source
-          srcset="https://github-readme-stats.lv5.moe/api?username=ShadowySpirits&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&hide_border=true&theme=dark"
+          srcset="github-stats-dark.svg"
           media="(prefers-color-scheme: dark)"
         />
         <source
-          srcset="https://github-readme-stats.lv5.moe/api?username=ShadowySpirits&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&hide_border=true&theme=default"
+          srcset="github-stats-light.svg"
           media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
         />
-        <img src="https://github-readme-stats.lv5.moe/api?username=ShadowySpirits&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&hide_border=true&theme=default" height="180" />
+        <img src="github-stats-light.svg" height="180" />
       </picture>
   <img width="24" />
   <picture>
     <source
-      srcset="https://github-readme-stats.lv5.moe/api/top-langs?username=ShadowySpirits&hide_title=false&layout=compact&card_width=320&langs_count=5&hide_border=true&theme=dark"
+      srcset="language-stats-dark.svg"
       media="(prefers-color-scheme: dark)"
     />
     <source
-      srcset="https://github-readme-stats.lv5.moe/api/top-langs?username=ShadowySpirits&hide_title=false&layout=compact&card_width=320&langs_count=5&hide_border=true&theme=default"
+      srcset="language-stats-light.svg"
       media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
     />
-    <img src="https://github-readme-stats.lv5.moe/api/top-langs?username=ShadowySpirits&hide_title=false&layout=compact&card_width=320&langs_count=5&hide_border=true&theme=default" height="180" />
+    <img src="language-stats-light.svg" height="180" />
   </picture>
 </div>
 
@@ -79,7 +79,7 @@ Here are some ideas to get you started:
 <br clear="both">
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/ShadowySpirits/ShadowySpirits/main/github-metrics-isocalendar.svg" alt="Github commits calendar" />
+    <img src="github-metrics-isocalendar.svg" alt="Github commits calendar" />
 </div>
 
 ###
