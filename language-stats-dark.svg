@@ -130,7 +130,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="175.53"
+          width="175.49"
           height="8"
           fill="#b07219"
         />
@@ -138,9 +138,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="175.53"
+          x="175.49"
           y="0"
-          width="58.72"
+          width="58.71"
           height="8"
           fill="#4F5D95"
         />
@@ -148,7 +148,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="234.25"
+          x="234.20000000000002"
           y="0"
           width="18.61"
           height="8"
@@ -158,7 +158,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="252.86"
+          x="252.81"
           y="0"
           width="18.96"
           height="8"
@@ -168,9 +168,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="261.82"
+          x="261.77"
           y="0"
-          width="18.17"
+          width="18.23"
           height="8"
           fill="#A97BFF"
         />
@@ -181,14 +181,14 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#b07219" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Java 65.01%
+        Java 65.00%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#4F5D95" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        PHP 21.75%
+        PHP 21.74%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
@@ -209,7 +209,7 @@
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#A97BFF" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Kotlin 3.03%
+        Kotlin 3.05%
       </text>
     </g>
   </g></g>
