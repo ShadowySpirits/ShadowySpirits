@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">SSpirits' GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 80, Total Commits  : 80, Total PRs: 555, Total Issues: 141, Contributed to (last year): 17</desc>
+        <desc id="descId">Total Stars Earned: 80, Total Commits  : 80, Total PRs: 557, Total Issues: 141, Contributed to (last year): 17</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 49.3147702347488;
+        stroke-dashoffset: 49.23912003676919;
       }
     }
   
@@ -192,7 +192,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >555</text>
+      >557</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
